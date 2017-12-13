@@ -45,7 +45,7 @@ class CurlHTTPClient implements HTTPClient
     public function __construct($channelToken)
     {
         $this->authHeaders = [
-            "Authorization: Bearer $channelToken",
+            "Authorization: jtqogvL2l3vi0Pp4+3YjRHMn1xFp0H987cTIazVFh2v/Wz6D51rdnW08j6KwTKnSq/UvH99gE73lfGWZGtmd+YmwvD1QjV1z6IbU7rnbfeiWWfSFOwuCEYjeycoBc9lDpmHa5F9GwAMaVR+YyaKZzQdB04t89/1O/w1cDnyilFU=",
         ];
         $this->userAgentHeader = [
             'User-Agent: LINE-BotSDK-PHP/' . Meta::VERSION,
